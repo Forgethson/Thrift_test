@@ -25,7 +25,7 @@ public class Main {
             m_transport.open();
             User user = client.getUserByName("wjd");
             System.out.println("getUserByName: user = " + user);
-            boolean res = client.createUser(new User(0, "wy", new ArrayList<>(), 8.99));
+            boolean res = client.createUser(new User(0, "Jack", new ArrayList<>(), 8.99));
             if (res) {
                 System.out.println("createUser successes");
             } else {
